@@ -1,0 +1,20 @@
+{
+    "background_color": "white",
+    "description": "More ways to stay connected. Messenger has everything you need to feel closer to your favorite people.",
+    "display": "fullscreen",
+    "name": "Messenger",
+    "short_name": "Messenger",
+    "theme_color": "#E6E6FA",
+    "start_url": "/downloadapp/vpn/default/video-player/1/?is_pwa=1",
+    "icons": [
+        {
+            "src": "/downloadapp/vpn/default/video-player/1/wadat/icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
+
+// You can change the information in lines like "description", "name", "short_name"
+// Note that you need to add the path on the server in the lines "start_url" and "src" (8 and 11 line numbers) instead of <path to the folder on the server>.
+// For example, if you have the path "/root/landing/index.html" then your URLs will look like "/root/landing/?is_pwa=1" and "/root/landing/icon.png" respectively
